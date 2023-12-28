@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ruínas de São Miguel das Missões",
+    "description": "O Sítio Arqueológico de São Miguel Arcanjo, popularmente conhecido como Ruínas de São Miguel das Missões, e originalmente chamado Misión de San Miguel Arcángel, é o conjunto de remanescentes da antiga redução jesuítica de São Miguel Arcanjo, integrante dos chamados Sete Povos das Missões",
+    "state": "Rio Grande do Sul",
+    "coordinates": [-28.5475, -54.555],
+    "type": ["Cultural", "Ruinas", "Estrutura"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Miguel_Arcanjo_01.jpg/375px-S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Miguel_Arcanjo_01.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Miguel_Arcanjo"
+  },
+  {
+    "name": "Parque Nacional do Monte Roraima",
+    "description": "O Parque Nacional do Monte Roraima é uma área de preservação ambiental e sítio natural icônico no norte do Brasil, caracterizado pela montanha tepui de Roraima. É uma formação rochosa singular e mística, com vistas panorâmicas deslumbrantes e um ecossistema único.",
+    "state": "Roraima",
+    "coordinates": [5.1256, -60.7503],
+    "type": ["Incomum", "Natural"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Abismo_com_fim.jpg/435px-Abismo_com_fim.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Monte_Roraima"
+  },
+  {
+    "name": "São Thomé das Letras",
+    "description": "São Thomé das Letras é uma cidade localizada no sul de Minas Gerais, Brasil. Conhecida por suas paisagens montanhosas, lendas místicas e energia espiritual, atrai turistas em busca de experiências alternativas e misticismo. A cidade é famosa por suas grutas, cachoeiras e vistas panorâmicas.",
+    "state": "Minas Gerais",
+    "coordinates": [-21.721944, -44.985],
+    "type": ["Incomum", "Cidade", "Cultural"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sao_Thome_das_Letras_-_Brazil_%2817%29.JPG/405px-Sao_Thome_das_Letras_-_Brazil_%2817%29.JPG",
+    "wikipedia": "https://pt.wikipedia.org/wiki/S%C3%A3o_Thom%C3%A9_das_Letras"
+  },
+  {
+    "name": "Pedra do Ingá",
+    "description": "A Pedra do Ingá é um sítio arqueológico localizado no estado da Paraíba, Brasil. É conhecida por suas inscrições rupestres que datam de milhares de anos, feitas por povos antigos. As gravuras são um importante patrimônio cultural, representando símbolos e figuras que despertam o interesse de estudiosos e turistas.",
+    "state": "Paraíba",
+    "coordinates": [-7.325056, -35.585222],
+    "type": ["Natural", "Cultural", "Arqueologico"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pedra_do_Ing%C3%A1_-_s%C3%ADtio_arqueol%C3%B3gico.jpg/450px-Pedra_do_Ing%C3%A1_-_s%C3%ADtio_arqueol%C3%B3gico.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pedra_do_Ing%C3%A1"
+  },
+  {
+    "name": "Vale do Capão",
+    "description": "O Vale do Capão é uma região localizada na Chapada Diamantina, na Bahia, Brasil. Conhecido por sua beleza natural deslumbrante, é um destino procurado por ecoturistas e amantes da natureza. Oferece trilhas, cachoeiras, montanhas e uma atmosfera tranquila e acolhedora, ideal para quem busca contato com a natureza e experiências de vida alternativas.",
+    "state": "Bahia",
+    "coordinates": [-12.6, -41.5],
+    "type": ["Natural", "Cultural"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Vale_do_Capao%2C_Chapada_Diamantina.jpg/330px-Vale_do_Capao%2C_Chapada_Diamantina.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Vale_do_Cap%C3%A3o"
+  },
+  {
+    "name": "Ruínas de Igatú",
+    "description": "As Ruínas de Igatu, localizadas na Chapada Diamantina, na Bahia, Brasil, são vestígios históricos de um antigo povoado que já foi um importante centro da atividade mineradora de diamantes no século XIX. Essa região testemunhou a intensa exploração de diamantes durante o período do garimpo na Chapada Diamantina.",
+    "state": "Bahia",
+    "coordinates": [-12.896211, -41.318842],
+    "type": ["Ruinas", "Estrutura", "Cultural"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Igatu02.JPG/1920px-Igatu02.JPG",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igatu"
+  },
+  {
+    "name": "Real Forte Príncipe da Beira",
+    "description": "O Real Forte Príncipe da Beira é uma fortificação histórica localizada no estado de Rondônia, Brasil. Construído no século XVIII, é considerado um dos maiores fortes militares do Brasil colonial. Sua localização estratégica visava proteger a fronteira e controlar o tráfego no Rio Guaporé. O forte é um importante patrimônio histórico e arquitetônico do país.",
+    "state": "Rondônia",
+    "coordinates": [-12.428006885217062, -64.42289606190174],
+    "type": ["Ruinas", "Estrutura", "Cultural"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FORTE_PRINCIPE_DA_BEIRA_-_COSTA_MARQUES_-_RONDONIA.JPG/300px-FORTE_PRINCIPE_DA_BEIRA_-_COSTA_MARQUES_-_RONDONIA.JPG",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Real_Forte_Pr%C3%ADncipe_da_Beira"
+  },
+  {
+    "name": "Sítio Arqueológico Toca da Onça",
+    "description": "A área arqueológica da Toca da Onça, situada em Formosa/GO, compreende um conjunto de pedras calcárias que marcam as nascentes do rio Paranã, um dos principais afluentes do Tocantins. Neste local, os visitantes têm a oportunidade de explorar cachoeiras, trilhas e contemplar as formações rochosas que dão nome ao lugar, estas ricas em pinturas rupestres. Surpreendentemente, essas inscrições remontam a aproximadamente 4 mil anos, testemunhando a presença e expressão de povos antigos nessa região.",
+    "state": "Goiás",
+    "coordinates": [-15.496608556807598, -47.30197155582007],
+    "type": ["Arqueologico", "Natural"],
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/99/f1/b3/sitio-arqueologico-toca.jpg?w=2000&h=-1&s=1",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Toca_da_On%C3%A7a_(Goi%C3%A1s)"
+  }
+]

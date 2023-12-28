@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 20px;
+  font-size: 30px;
+}
+
+.link {
+  color: #010101;
+  text-decoration: none;
+}
+
+.discoverLink:hover {
+  text-decoration: underline;
+}
+
+.link span {
+  font-weight: 200;
+}
