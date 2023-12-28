@@ -1,41 +1,34 @@
 'use client'
 
 import L, { divIcon } from 'leaflet'
-import { ChangeEvent, useState } from 'react'
+import { ChangeEvent, useEffect, useState } from 'react'
 import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 import { Place, PlaceType } from '@/lib/types/place'
 
 import PlaceModal from '../PlaceModal/PlaceModal'
+import Filter from '../Filter/Filter'
 import SizedContainer from '../SizedContainer/SizedContainer'
 
 import styles from './map.module.css'
+
 import 'leaflet/dist/leaflet.css'
 
 type Props = {
   data: Place[]
 }
 
-const filtersObj: Record<string, boolean> = {
-  incomum: false,
-  cultural: false,
-  ruinas: false,
-  cidade: false,
-  arqueologico: false,
-  estrutura: false,
-  natural: false,
-}
-
 export default function Map({ data }: Props) {
   const [filteredData, setFilteredData] = useState(data)
-  const [filters, setFilters] = useState(filtersObj)
   const [modal, setModal] = useState(false)
   const [currentPlace, setCurrentPlace] = useState<Place>()
 
-  const handleCheboxChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const { value } = e.target
-    const updatedFilters = { ...filters, [value]: !filters[value] }
-
-    setFilters(updatedFilters)
+  const handleDataTransformation = (activeFilters: string[]) => {
+    setFilteredData(() =>
+      data.filter(place => {
+        const types = place.type.map(t => t.toString().toLowerCase())
+        return activeFilters.every(filter => types.includes(filter))
+      }),
+    )
   }
 
   const icon = L.icon({
@@ -45,24 +38,11 @@ export default function Map({ data }: Props) {
 
   return (
     <SizedContainer className={styles.container}>
-      <div className={styles.filters}>
-        {Object.keys(filters).map((key, i) => (
-          <label key={i}>
-            <input
-              type="checkbox"
-              checked={filters[key]}
-              onChange={handleCheboxChange}
-              name={key}
-              value={key}
-            />
-            {key}
-          </label>
-        ))}
-      </div>
+      <Filter onFilterChange={handleDataTransformation} />
 
       <MapContainer
         className={styles.map}
-        center={[-17, -55]}
+        center={[-25, -55]}
         zoom={4}
         scrollWheelZoom={!L.Browser.mobile}
         dragging={!L.Browser.mobile}

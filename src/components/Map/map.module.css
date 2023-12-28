@@ -10,15 +10,3 @@
   width: 100%;
   height: 100%;
 }
-
-.filters {
-  display: flex;
-  flex-direction: column;
-
-  gap: 8px;
-  font-size: 20px;
-}
-
-.filters label input {
-  margin-right: 10px;
-}
