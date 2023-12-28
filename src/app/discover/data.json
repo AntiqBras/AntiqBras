@@ -70,5 +70,86 @@
     "type": ["Arqueologico", "Natural"],
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/99/f1/b3/sitio-arqueologico-toca.jpg?w=2000&h=-1&s=1",
     "wikipedia": "https://pt.wikipedia.org/wiki/Toca_da_On%C3%A7a_(Goi%C3%A1s)"
+  },
+  {
+    "name": "Chapada dos Veadeiros",
+    "description": "Conhecida pela energia emanada por uma placa de quartzo rosa e suas belezas naturais, Chapada dos Veadeiros é um destino para aqueles que buscam uma conexão profunda com a natureza.",
+    "state": "Goiás",
+    "coordinates": [-14.1005, -47.7843],
+    "type": ["Cultural", "Natural", "Incomum"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Chapada_dos_Veadeiros"
+  },
+  {
+    "name": "Chapada dos Guimarães",
+    "description": "Localizada em Mato Grosso, é famosa por suas formações geológicas, cachoeiras e histórias místicas relacionadas ao Paralelo 15 Sul.",
+    "state": "Mato Grosso",
+    "coordinates": [-15.4606, -55.7499],
+    "type": ["Cultural", "Natural", "Incomum"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Chapada_dos_Guimar%C3%A3es"
+  },
+  {
+    "name": "Serra do Roncador",
+    "description": "Localizada em Mato Grosso, é conhecida por lendas de civilizações antigas e avistamentos de OVNIs, com belas cachoeiras e florestas.",
+    "state": "Mato Grosso",
+    "coordinates": [-13.0101, -52.1093],
+    "type": ["Cultural", "Natural", "Incomum"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Serra_do_Roncador"
+  },
+  {
+    "name": "Itaara",
+    "description": "A cidade de Itaara, no Rio Grande do Sul, é conhecida por sua ligação com fenômenos extraterrestres e abriga o Museu Internacional de Ufologia.",
+    "state": "Rio Grande do Sul",
+    "coordinates": [-29.6013, -53.7725],
+    "type": ["Cultural", "Incomum"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Itaara"
+  },
+  {
+    "name": "Arraial do Sana",
+    "description": "Localizado no Rio de Janeiro, é um distrito conhecido por suas cachoeiras, ecoturismo e misticismo, frequentemente associado à cultura hippie.",
+    "state": "Rio de Janeiro",
+    "coordinates": [-22.3153, -42.2094],
+    "type": ["Cultural", "Natural", "Incomum"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Arraial_do_Sana"
+  },
+  {
+    "name": "Caverna do Diabo",
+    "description": "Localizada no município de Eldorado, São Paulo, é rodeada por cachoeiras, trilhas e lendas que envolvem seu misterioso interior.",
+    "state": "São Paulo",
+    "coordinates": [-24.6333, -48.4167],
+    "type": ["Natural", "Incomum"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Caverna_do_Diabo"
+  },
+  {
+    "name": "Parque Nacional da Serra da Capivara",
+    "description": "Localizado no Piauí, é conhecido pela maior concentração de sítios arqueológicos do continente e pinturas rupestres.",
+    "state": "Piauí",
+    "coordinates": [-8.8719, -42.7172],
+    "type": ["Cultural", "Arqueologico"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara"
+  },
+  {
+    "name": "Parque Nacional do Catimbau",
+    "description": "Localizado em Pernambuco, é o segundo maior parque arqueológico do Brasil, famoso por suas pinturas rupestres e paisagens naturais.",
+    "state": "Pernambuco",
+    "coordinates": [-8.4156, -37.1583],
+    "type": ["Cultural", "Arqueologico", "Natural"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Catimbau"
+  },
+  {
+    "name": "Parque Arqueológico do Solstício",
+    "description": "No Amapá, este parque é conhecido por um círculo megalítico antigo e pinturas rupestres, sugerindo antigos observatórios astronômicos.",
+    "state": "Amapá",
+    "coordinates": [2.5047, -50.9512],
+    "type": ["Cultural", "Arqueologico"],
+    "img": "",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio"
   }
 ]
