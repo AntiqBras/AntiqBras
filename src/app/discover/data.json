@@ -99,24 +99,6 @@
     "wikipedia": "https://pt.wikipedia.org/wiki/Serra_do_Roncador"
   },
   {
-    "name": "Itaara",
-    "description": "A cidade de Itaara, no Rio Grande do Sul, é conhecida por sua ligação com fenômenos extraterrestres e abriga o Museu Internacional de Ufologia.",
-    "state": "Rio Grande do Sul",
-    "coordinates": [-29.6013, -53.7725],
-    "type": ["Cultural", "Incomum"],
-    "img": "",
-    "wikipedia": "https://pt.wikipedia.org/wiki/Itaara"
-  },
-  {
-    "name": "Arraial do Sana",
-    "description": "Localizado no Rio de Janeiro, é um distrito conhecido por suas cachoeiras, ecoturismo e misticismo, frequentemente associado à cultura hippie.",
-    "state": "Rio de Janeiro",
-    "coordinates": [-22.3153, -42.2094],
-    "type": ["Cultural", "Natural", "Incomum"],
-    "img": "",
-    "wikipedia": "https://pt.wikipedia.org/wiki/Arraial_do_Sana"
-  },
-  {
     "name": "Caverna do Diabo",
     "description": "Localizada no município de Eldorado, São Paulo, é rodeada por cachoeiras, trilhas e lendas que envolvem seu misterioso interior.",
     "state": "São Paulo",
@@ -151,5 +133,23 @@
     "type": ["Cultural", "Arqueologico"],
     "img": "",
     "wikipedia": "https://pt.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio"
+  },
+  {
+    "name": "Ruínas de Paricatuba",
+    "description": "Localizadas no município de Iranduba, no Amazonas, as Ruínas de Paricatuba são os vestígios de um antigo complexo construído no final do século XIX. Inicialmente, o local serviu como hospedaria para imigrantes e, posteriormente, foi transformado em uma prisão, hospital, e até escola. Hoje, suas estruturas desgastadas pela floresta que as retoma, atraem visitantes interessados em sua arquitetura e história peculiares, bem como pelas lendas que cercam o local.",
+    "state": "Amazonas",
+    "coordinates": [-3.14159, -60.0961],
+    "type": ["Ruinas", "Cultural", "Arqueologico"],
+    "img": "https://www.amazonasemais.com.br/wp-content/uploads/2019/07/paricatuba-1.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Ru%C3%ADnas_de_Paricatuba"
+  },
+  {
+    "name": "Usina Cinco Rios",
+    "description": "A Usina Cinco Rios, de propriedade inicial da família Costa Pinto, foi fundada em 6 de novembro de 1912, com a fusão de cinco engenhos da região: o Sincoris, o Sapucaia, o Cassarangongo, o Paramirim e o Maracangalha. Seu maquinário veio da Companhia Usina Bom Jardim e era toda movida a vapor e energia elétrica. A energia elétrica e o combustível da fábrica eram feitos com o bagaço da cana-de-açúcar, um método novo para a época.",
+    "state": "Bahia",
+    "coordinates": [-12.604828981093043, -38.56746727672862],
+    "type": ["Estrutura", "Cultural", "Ruinas"],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Usina_Cinco_Rios_2018-0793.jpg/1125px-Usina_Cinco_Rios_2018-0793.jpg?20181126041403",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Usina_Cinco_Rios"
   }
 ]

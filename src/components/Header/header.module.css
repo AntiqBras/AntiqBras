@@ -1,15 +1,19 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
-  padding: 20px;
-  font-size: 30px;
+  padding: 36px;
+  font-size: 26px;
 }
 
 .link {
-  color: #010101;
+  color: #000;
   text-decoration: none;
+}
+
+.titleLink {
+  letter-spacing: 1.5px;
 }
 
 .discoverLink:hover {
@@ -17,5 +21,5 @@
 }
 
 .link span {
-  font-weight: 200;
+  font-weight: 300;
 }

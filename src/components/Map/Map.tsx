@@ -38,18 +38,22 @@ export default function Map({ data }: Props) {
 
   return (
     <SizedContainer className={styles.container}>
-      <Filter onFilterChange={handleDataTransformation} />
-
       <MapContainer
         className={styles.map}
-        center={[-25, -55]}
+        center={[-14, -50]}
         zoom={4}
         scrollWheelZoom={!L.Browser.mobile}
         dragging={!L.Browser.mobile}
+        doubleClickZoom={false}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+
+        <Filter
+          className={styles.filter}
+          onFilterChange={handleDataTransformation}
         />
 
         {filteredData.map(place => (

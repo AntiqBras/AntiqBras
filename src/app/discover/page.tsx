@@ -15,9 +15,9 @@ export default async function Discover() {
   const MapNoSSR = dynamic(() => import('@/components/Map/Map'), { ssr: false })
 
   return (
-    <main>
+    <>
       <Header />
       <MapNoSSR data={data} />
-    </main>
+    </>
   )
 }
