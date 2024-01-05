@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 10px;
+}
+
+.container h2 {
+  text-align: center;
+
+  max-width: 760px;
+
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}
+
+.container h2 span {
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 40px;
+
+  margin-top: 80px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  gap: 18px;
+}
+
+.card:nth-child(2) {
+  margin-left: auto;
+}
+
+.card span {
+  height: 50px;
+  width: 50px;
+
+  background-color: var(--selection-color);
+  border-radius: 50%;
+
+  text-align: center;
+  font-size: 24px;
+  line-height: 0.7;
+
+  margin-right: 6px;
+  padding: 18px;
+}
+
+.card div {
+  padding: 20px;
+  border-radius: 12px;
+
+  background-color: var(--card-color);
+
+  max-width: 600px;
+}
+
+.card div h4 {
+  font-size: 22px;
+  letter-spacing: 1.1px;
+
+  margin-bottom: 24px;
+}
+
+.card div p {
+  color: var(--light-dark);
+
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container h2 {
+    font-size: 24px;
+  }
+}
