@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 
@@ -37,7 +39,7 @@ export default function Slider() {
   })
 
   return (
-    <section ref={ref} className={`${styles.slides} keen-slider`}>
+    <div ref={ref} className={`${styles.slides} keen-slider`}>
       {data.map((entry, i) => (
         <div
           className={`${styles.slide} keen-slider__slide`}
@@ -46,7 +48,13 @@ export default function Slider() {
         >
           <div className={styles.content}>
             <div className={styles.slideImgContainer}>
-              <img src={entry.logo} alt="Logo" />
+              <Image
+                src={entry.logo}
+                alt="Logo"
+                width={0}
+                height={0}
+                sizes="100vw"
+              />
             </div>
 
             <h3>{entry.title}</h3>
@@ -54,6 +62,6 @@ export default function Slider() {
           </div>
         </div>
       ))}
-    </section>
+    </div>
   )
 }

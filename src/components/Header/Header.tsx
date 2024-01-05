@@ -6,7 +6,7 @@ import styles from './header.module.css'
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <SizedContainer className={styles.container}>
         <Link href="/" className={`${styles.link} ${styles.titleLink}`}>
           <h3>antiqbras</h3>

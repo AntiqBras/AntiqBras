@@ -1,9 +1,18 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1002;
+
+  background: var(--primary-bg);
+}
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  padding: 36px;
+  padding: 18px 10px;
   font-size: 26px;
 }
 

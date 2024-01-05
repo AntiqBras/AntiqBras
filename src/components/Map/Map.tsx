@@ -1,9 +1,9 @@
 'use client'
 
-import L, { divIcon } from 'leaflet'
-import { ChangeEvent, useEffect, useState } from 'react'
+import L from 'leaflet'
+import { useState } from 'react'
 import { MapContainer, Marker, TileLayer } from 'react-leaflet'
-import { Place, PlaceType } from '@/lib/types/place'
+import { Place } from '@/lib/types/place'
 
 import PlaceModal from '../PlaceModal/PlaceModal'
 import Filter from '../Filter/Filter'
@@ -32,7 +32,7 @@ export default function Map({ data }: Props) {
   }
 
   const icon = L.icon({
-    iconUrl: '/marker.png',
+    iconUrl: '/map/marker.png',
     iconSize: [32, 32],
   })
 
