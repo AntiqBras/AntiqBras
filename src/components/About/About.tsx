@@ -6,19 +6,19 @@ import SizedContainer from '../SizedContainer/SizedContainer'
 
 const data = [
   {
-    title: 'Lorem Ipsum',
+    title: 'Conheça os tesouros nacionais',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum quaerat nihil voluptatibus',
+      'Explore os tesouros nacionais, locais únicos e distintos que revelam a singularidade da nossa cultura e herança.',
   },
   {
-    title: 'Lorem Ipsum',
+    title: 'A diversidade cultural brasileira',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum quaerat nihil voluptatibus',
+      'Descubra a riqueza da nacionalidade brasileira através da sua diversidade cultural, com influências indígenas, africanas, europeias e asiáticas que se uniram para criar uma identidade única e vibrante.',
   },
   {
-    title: 'Lorem Ipsum',
+    title: 'Belezas naturais do Brasil: um presente da nacionalidade',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum quaerat nihil voluptatibus',
+      'Explore as deslumbrantes paisagens naturais do Brasil, desde a majestosa Floresta Amazônica até as espetaculares Cataratas do Iguaçu. A diversidade geográfica do país é um verdadeiro presente da nacionalidade brasileira.',
   },
 ]
 

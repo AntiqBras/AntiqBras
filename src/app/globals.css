@@ -1,6 +1,7 @@
 :root {
   --primary-bg: #ecfad4;
-  --slider-bg: #e3f1cb;
+  --secondary-bg: #e3f1cb;
+  --presentation-map-bg: #c9e9b4;
   --button-color: #c9e9b4;
   --card-color: #c9e9b4;
   --selection-color: #b0df91;
