@@ -1,4 +1,11 @@
 :root {
+  --primary-bg: #ecfad4;
+  --slider-bg: #e3f1cb;
+  --button-color: #c9e9b4;
+  --card-color: #c9e9b4;
+  --selection-color: #b0df91;
+  --light-dark: #343434;
+
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
