@@ -57,7 +57,7 @@ export default function PresentationMap() {
                 <span>{card.title}</span>
               </div>
 
-              <p>{card.description}</p>
+              <p className={domine.className}>{card.description}</p>
             </div>
 
             <div className={styles.cardImage}>

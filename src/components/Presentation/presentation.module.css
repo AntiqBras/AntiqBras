@@ -22,7 +22,9 @@
 
 .content p {
   width: 620px;
-  font-weight: 300;
+
+  color: var(--light-dark);
+  font-weight: 400;
   line-height: 26px;
 }
 
@@ -51,7 +53,16 @@
   }
 
   .content p {
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .container h4 {
+    font-size: 32px;
+  }
+
+  .contentTitles h2 {
+    font-size: 55px;
   }
 
   .contentButtons {

@@ -84,7 +84,21 @@
     font-size: 24px;
   }
 
+  .cards {
+    width: auto;
+  }
+
+  .card {
+    position: relative;
+    flex-direction: column;
+  }
+
   .card span {
-    display: none;
+    position: absolute;
+    top: -30px;
+    right: 0;
+
+    background-color: var(--selection-color-light);
+    margin-right: auto;
   }
 }
