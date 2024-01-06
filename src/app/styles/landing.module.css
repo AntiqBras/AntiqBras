@@ -14,10 +14,12 @@
   padding-top: 180px;
   padding-bottom: 100px;
 
-  background: var(--slider-bg);
+  background: var(--secondary-bg);
 }
 
 .slider {
-  /* padding-top: 180px; */
-  /* padding-bottom: 100px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background: var(--primary-bg);
 }

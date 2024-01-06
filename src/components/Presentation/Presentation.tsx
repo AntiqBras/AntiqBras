@@ -1,10 +1,11 @@
-import Link from 'next/link'
 import Image from 'next/image'
 
 import styles from './presentation.module.css'
 
 import { domine } from '../../lib/fonts/domine'
+
 import SizedContainer from '../SizedContainer/SizedContainer'
+import Button from '../Button/Button'
 
 export default function Presentation() {
   return (
@@ -21,7 +22,7 @@ export default function Presentation() {
         </p>
 
         <div className={styles.contentButtons}>
-          <Link href="/discover">Acessar Mapa</Link>
+          <Button href="/discover" text="Acessar Mapa" />
         </div>
       </div>
 
