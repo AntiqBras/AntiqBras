@@ -17,9 +17,16 @@
   background: var(--secondary-bg);
 }
 
-.slider {
+.presentationMap {
   padding-top: 60px;
   padding-bottom: 60px;
 
   background: var(--primary-bg);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background: var(--secondary-bg);
 }

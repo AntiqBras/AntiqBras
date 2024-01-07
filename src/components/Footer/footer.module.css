@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 16px;
+}
+
+.about {
+  margin-right: 50px;
+}
+
+.about h3 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  font-size: 27px;
+}
+
+.socials a {
+  cursor: pointer;
+  color: var(--light-dark);
+}
+
+.multipleLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+
+  margin-top: 24px;
+  color: var(--light-dark);
+
+  font-size: 18px;
+}
+
+.multipleLinks a {
+  color: var(--light-dark);
+  text-decoration: none;
+}
+
+.multipleLinks a:hover {
+  text-decoration: underline;
+}
+
+.more h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about {
+    margin-bottom: 20px;
+  }
+}

@@ -1,10 +1,11 @@
 import styles from './styles/landing.module.css'
 
-import Header from '../components/Header/Header'
-import Presentation from '../components/Presentation/Presentation'
-import About from '../components/About/About'
+import Header from '@/components/Header/Header'
+import Presentation from '@/components/Presentation/Presentation'
+import About from '@/components/About/About'
 import InfoCard from '@/components/InfoCard/InfoCard'
 import PresentationMap from '@/components/PresentationMap/PresentationMap'
+import Footer from '@/components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -20,9 +21,12 @@ export default function Home() {
         <section className={styles.about}>
           <About />
         </section>
-        <section className={styles.slider}>
+        <section className={styles.presentationMap}>
           <PresentationMap />
         </section>
+        <footer className={styles.footer}>
+          <Footer />
+        </footer>
       </main>
     </>
   )
