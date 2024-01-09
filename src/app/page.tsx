@@ -6,6 +6,7 @@ import About from '@/components/About/About'
 import InfoCard from '@/components/InfoCard/InfoCard'
 import PresentationMap from '@/components/PresentationMap/PresentationMap'
 import Footer from '@/components/Footer/Footer'
+import PresentationBlog from '@/components/PresentationBlog/PresentationBlog'
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         </section>
         <section className={styles.about}>
           <About />
+        </section>
+        <section className={styles.presentationBlog}>
+          <PresentationBlog />
         </section>
         <section className={styles.presentationMap}>
           <PresentationMap />
