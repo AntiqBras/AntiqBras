@@ -7,7 +7,7 @@ import { Place } from '@/lib/types/place'
 
 import PlaceModal from '../PlaceModal/PlaceModal'
 import Filter from '../Filter/Filter'
-import SizedContainer from '../SizedContainer/SizedContainer'
+import SizedContainer from '../../global/SizedContainer/SizedContainer'
 
 import styles from './map.module.css'
 

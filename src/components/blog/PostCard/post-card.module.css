@@ -1,0 +1,49 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  width: 100%;
+  height: 500px;
+
+  color: var(--light-dark);
+  text-decoration: none;
+}
+
+.postImage {
+  height: 400px;
+  overflow: hidden;
+}
+
+.postImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.postInfo {
+  background: var(--card-color);
+  padding: 28px;
+
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.postInfo h3 {
+  font-size: 28px;
+}
+
+.author {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .postInfo {
+    padding: 18px;
+  }
+
+  .author {
+    font-size: 14px;
+  }
+}

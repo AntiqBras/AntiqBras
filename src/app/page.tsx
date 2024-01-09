@@ -1,12 +1,12 @@
 import styles from './styles/landing.module.css'
 
-import Header from '@/components/Header/Header'
-import Presentation from '@/components/Presentation/Presentation'
-import About from '@/components/About/About'
-import InfoCard from '@/components/InfoCard/InfoCard'
-import PresentationMap from '@/components/PresentationMap/PresentationMap'
-import Footer from '@/components/Footer/Footer'
-import PresentationBlog from '@/components/PresentationBlog/PresentationBlog'
+import Header from '@/components/global/Header/Header'
+import Presentation from '@/components/landing/Presentation/Presentation'
+import About from '@/components/landing/About/About'
+import InfoCard from '@/components/landing/InfoCard/InfoCard'
+import PresentationMap from '@/components/map/PresentationMap/PresentationMap'
+import Footer from '@/components/global/Footer/Footer'
+import PresentationBlog from '@/components/blog/PresentationBlog/PresentationBlog'
 
 export default function Home() {
   return (

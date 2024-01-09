@@ -1,0 +1,20 @@
+.container {
+  padding: 0 10px;
+}
+
+.info {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.info h2 {
+  font-size: 40px;
+  margin-bottom: 11px;
+}
+
+.info p {
+  letter-spacing: 1.2px;
+  font-size: 22px;
+
+  color: var(--light-dark);
+}

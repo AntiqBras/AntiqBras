@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 import styles from './presentation.module.css'
 
-import { domine } from '../../lib/fonts/domine'
+import { domine } from '../../../lib/fonts/domine'
 
-import SizedContainer from '../SizedContainer/SizedContainer'
-import Button from '../Button/Button'
+import SizedContainer from '../../global/SizedContainer/SizedContainer'
+import Button from '../../global/Button/Button'
 
 export default function Presentation() {
   return (

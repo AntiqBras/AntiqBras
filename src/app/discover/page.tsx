@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs'
 import dynamic from 'next/dynamic'
 
-import Header from '@/components/Header/Header'
+import Header from '@/components/global/Header/Header'
 
 import styles from './styles/discover.module.css'
 
@@ -12,7 +12,9 @@ export default async function Discover() {
   )
 
   const data = JSON.parse(file)
-  const MapNoSSR = dynamic(() => import('@/components/Map/Map'), { ssr: false })
+  const MapNoSSR = dynamic(() => import('@/components/map/Map/Map'), {
+    ssr: false,
+  })
 
   return (
     <>

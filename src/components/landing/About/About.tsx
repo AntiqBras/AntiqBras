@@ -1,8 +1,8 @@
 import styles from './about.module.css'
 
-import { domine } from '../../lib/fonts/domine'
+import { domine } from '../../../lib/fonts/domine'
 
-import SizedContainer from '../SizedContainer/SizedContainer'
+import SizedContainer from '../../global/SizedContainer/SizedContainer'
 
 const data = [
   {
