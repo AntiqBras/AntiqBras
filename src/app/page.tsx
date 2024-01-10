@@ -11,9 +11,9 @@ import PresentationBlog from '@/components/blog/PresentationBlog/PresentationBlo
 export default function Home() {
   return (
     <>
+      <Header />
       <main className={styles.main}>
         <section className={styles.presentation}>
-          <Header />
           <Presentation />
         </section>
         <section className={styles.infoCard}>

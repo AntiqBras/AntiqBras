@@ -1,6 +1,12 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+
   width: 100%;
-  background: transparent;
+
+  background: var(--primary-bg);
+  border-bottom: rgba(0, 0, 0, 1);
 }
 
 .container {
@@ -9,7 +15,7 @@
   align-items: center;
 
   padding: 18px 10px;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .link {

@@ -32,10 +32,10 @@ export default function Blog() {
     <>
       <Header />
 
-      <SizedContainer className={`${styles.container} ${domine.className}`}>
-        <div className={styles.info}>
+      <SizedContainer className={styles.container}>
+        <div className={`${styles.info} ${domine.className}`}>
           <h2>Blog</h2>
-          <p>Veja os posts do Antiqbras!</p>
+          <p>Veja os posts do Antiqbras! 🇧🇷</p>
         </div>
 
         {posts.data.length > 0 ? (
