@@ -3,8 +3,6 @@
 import { useState } from 'react'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa6'
 
-import SizedContainer from '@/components/global/SizedContainer/SizedContainer'
-
 import styles from './pagination.module.css'
 
 type Props = {
@@ -42,7 +40,7 @@ export default function Pagination({ totalPages, onClickFunction }: Props) {
   }
 
   return (
-    <SizedContainer className={styles.container}>
+    <div className={styles.container}>
       <button
         className={styles.arrow}
         onClick={() => handlePageClick(Math.max(1, currentPage - 1))}
@@ -71,6 +69,6 @@ export default function Pagination({ totalPages, onClickFunction }: Props) {
       >
         <FaArrowRight />
       </button>
-    </SizedContainer>
+    </div>
   )
 }

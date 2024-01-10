@@ -15,7 +15,7 @@ export default function PostCard({ post }: Props) {
     <Link href={`/blog/${post.slug}`} className={styles.post}>
       <div className={styles.postImage}>
         <Image
-          src={post.hero_image}
+          src={post.hero_image ? post.hero_image : '/placeholder.png'}
           alt={post.title}
           width={0}
           height={0}

@@ -18,7 +18,7 @@ export default function PlaceModal({ onClickFunction, data: place }: Props) {
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
-            src={place?.img ? place?.img : '/map/placeholder.png'}
+            src={place?.img ? place?.img : '/placeholder.png'}
             alt={place?.name!}
             width={0}
             height={0}
