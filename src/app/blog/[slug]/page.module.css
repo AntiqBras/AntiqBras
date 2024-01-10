@@ -1,0 +1,82 @@
+.main {
+  background-color: var(--secondary-bg);
+}
+
+.container {
+  max-width: 800px !important;
+
+  padding: 0 10px;
+  padding-top: 35px;
+}
+
+.container figure {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 33px;
+
+  overflow: hidden;
+
+  border-radius: 16px;
+}
+
+.container figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.presentation h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.0625;
+  letter-spacing: 0.6px;
+}
+
+.presentation p {
+  font-size: 17px;
+  font-weight: 500;
+
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+
+.infos {
+  display: flex;
+  padding-bottom: 45px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.infos div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 4px;
+}
+
+.published {
+  font-size: 14px;
+  color: var(--light-dark);
+}
+
+.container {
+  font-weight: 500;
+}
+
+.content {
+  padding: 65px 0;
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  margin-bottom: 48px;
+}
+
+.content h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
