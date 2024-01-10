@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 import Header from '@/components/global/Header/Header'
 import SizedContainer from '@/components/global/SizedContainer/SizedContainer'
+import Footer from '@/components/global/Footer/Footer'
 
 import { Post } from '@/lib/types/post'
+import { convertDate } from '@/lib/functions/convertDate'
 import { getPost } from '@/fetchs/getPost'
 
 import styles from './page.module.css'
-import { convertDate } from '@/lib/functions/convertDate'
-import Footer from '@/components/global/Footer/Footer'
 
 export default async function BlogPage({
   params,

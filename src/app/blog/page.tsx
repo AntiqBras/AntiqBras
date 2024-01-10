@@ -12,6 +12,7 @@ import SizedContainer from '@/components/global/SizedContainer/SizedContainer'
 import EmptyPosts from '@/components/blog/EmptyPosts/EmptyPosts'
 import PostCard from '@/components/blog/PostCard/PostCard'
 import Pagination from '@/components/blog/Pagination/Pagination'
+import Footer from '@/components/global/Footer/Footer'
 
 import styles from '../styles/blog.module.css'
 
@@ -32,29 +33,33 @@ export default function Blog() {
     <>
       <Header />
 
-      <SizedContainer className={styles.container}>
-        <div className={`${styles.info} ${domine.className}`}>
-          <h2>Blog</h2>
-          <p>Veja os posts do Antiqbras! 🇧🇷</p>
-        </div>
+      <div className={styles.main}>
+        <SizedContainer className={styles.container}>
+          <div className={`${styles.info} ${domine.className}`}>
+            <h2>Blog</h2>
+            <p>Veja os posts do Antiqbras! 🇧🇷</p>
+          </div>
 
-        {posts.data.length > 0 ? (
-          <>
-            <div className={styles.posts}>
-              {posts.data.map((post: Post) => (
-                <PostCard key={post.slug} post={post} />
-              ))}
-            </div>
+          {posts.data.length > 0 ? (
+            <>
+              <div className={styles.posts}>
+                {posts.data.map((post: Post) => (
+                  <PostCard key={post.slug} post={post} />
+                ))}
+              </div>
 
-            <Pagination
-              onClickFunction={num => setCurrentPage(num)}
-              totalPages={posts.totalPages}
-            />
-          </>
-        ) : (
-          <EmptyPosts />
-        )}
-      </SizedContainer>
+              <Pagination
+                onClickFunction={num => setCurrentPage(num)}
+                totalPages={posts.totalPages}
+              />
+            </>
+          ) : (
+            <EmptyPosts />
+          )}
+        </SizedContainer>
+      </div>
+
+      <Footer />
     </>
   )
 }
