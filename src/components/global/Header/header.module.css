@@ -11,26 +11,66 @@
 
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
   padding: 18px 10px;
-  font-size: 20px;
 }
 
-.link {
+.title {
+  display: flex;
+  gap: 12px;
+
+  font-size: 20px;
   color: #000;
   text-decoration: none;
 }
 
-.titleLink {
-  letter-spacing: 1.5px;
+.links {
+  display: flex;
+  gap: 16px;
+
+  margin: 0 55px;
 }
 
-.discoverLink:hover {
+.links a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+
+  color: var(--light-dark);
+}
+
+.links a:hover {
   text-decoration: underline;
 }
 
-.link span {
-  font-weight: 300;
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+
+  margin-left: auto;
+}
+
+.socials a {
+  font-size: 24px;
+  color: var(--light-dark);
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    justify-content: space-between;
+  }
+
+  .links {
+    margin: 0;
+  }
+
+  .links a {
+    font-size: 18px;
+  }
+
+  .socials {
+    display: none;
+  }
 }
