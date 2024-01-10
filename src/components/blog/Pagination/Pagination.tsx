@@ -1,3 +1,8 @@
+'use client'
+
+import { useState } from 'react'
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa6'
+
 import SizedContainer from '@/components/global/SizedContainer/SizedContainer'
 
 import styles from './pagination.module.css'
@@ -8,19 +13,64 @@ type Props = {
 }
 
 export default function Pagination({ totalPages, onClickFunction }: Props) {
-  const pages = []
+  const [currentPage, setCurrentPage] = useState(1)
+  const maxPageButtons = 5
 
-  for (let i = 1; i <= totalPages; i++) {
-    pages.push(
-      <span
-        key={i}
-        className={styles.pageNum}
-        onClick={() => onClickFunction(i)}
-      >
-        {i}
-      </span>,
-    )
+  const getPageNumbers = () => {
+    let startPage = Math.max(1, currentPage - 2)
+    let endPage = Math.min(totalPages, currentPage + 2)
+
+    const range = []
+
+    if (endPage - startPage + 1 < maxPageButtons) {
+      if (startPage === 1) {
+        endPage = Math.min(startPage + maxPageButtons - 1, totalPages)
+      } else if (endPage === totalPages) {
+        startPage = Math.max(endPage - maxPageButtons + 1, 1)
+      }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      range.push(i)
+    }
+    return range
   }
 
-  return <SizedContainer className={styles.container}>{pages}</SizedContainer>
+  const handlePageClick = (page: number) => {
+    setCurrentPage(page)
+    onClickFunction(page)
+  }
+
+  return (
+    <SizedContainer className={styles.container}>
+      <button
+        className={styles.arrow}
+        onClick={() => handlePageClick(Math.max(1, currentPage - 1))}
+        disabled={currentPage === 1}
+      >
+        <FaArrowLeft />
+      </button>
+
+      <div className={styles.pages}>
+        {getPageNumbers().map(page => (
+          <button
+            key={page}
+            className={styles.pageNum}
+            onClick={() => handlePageClick(page)}
+            disabled={page === currentPage}
+          >
+            {page}
+          </button>
+        ))}
+      </div>
+
+      <button
+        className={styles.arrow}
+        onClick={() => handlePageClick(Math.min(totalPages, currentPage + 1))}
+        disabled={currentPage === totalPages}
+      >
+        <FaArrowRight />
+      </button>
+    </SizedContainer>
+  )
 }
