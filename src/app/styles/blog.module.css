@@ -18,3 +18,9 @@
 
   color: var(--light-dark);
 }
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
