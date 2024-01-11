@@ -38,6 +38,8 @@
 
   margin-top: 10px;
   margin-bottom: 36px;
+
+  color: var(--light-dark);
 }
 
 .infos {
@@ -89,4 +91,10 @@
   gap: 8px;
 
   padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .presentation h1 {
+    font-size: 36px;
+  }
 }
