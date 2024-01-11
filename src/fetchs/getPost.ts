@@ -6,6 +6,6 @@ export async function getPost(slug: string) {
     const res = await fetch(url, { cache: 'no-store' })
     return res.json()
   } catch (err) {
-    return {}
+    return null
   }
 }

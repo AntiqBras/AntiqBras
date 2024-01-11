@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "hero_image": "https://i.imgur.com/VOuRvyw.png",
+      "title": "Baleia Jubarte aparece no litoral de SP",
+      "subtitle": "Veja o aparecimento de uma baleia jubarte aparece no litoral de SP levando filhote na cabeça",
+      "slug": "baleia-jubarte-aparece-no-litoral-de-sp",
+      "content": "...",
+      "writer_name": "John Doe",
+      "created_at": "2023-08-12 20:43:12.760 -0300"
+    },
+    {
+      "hero_image": "https://i.imgur.com/h6IMxEB.png",
+      "title": "Cientistas descobrem nova espécie",
+      "subtitle": "Cientistas descobrem nova espécie de sapo de 1 centímetro em parque de Santa Catarina",
+      "slug": "cientistas-descobrem-nova-especie-de-sapo",
+      "content": "...",
+      "writer_name": "Kleber",
+      "created_at": "2023-08-01 20:43:12.760 -0300"
+    }
+  ]
+}

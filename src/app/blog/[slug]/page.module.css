@@ -80,3 +80,13 @@
   margin-bottom: 24px;
   font-size: 24px;
 }
+
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+
+  padding-bottom: 30px;
+}

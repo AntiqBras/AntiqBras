@@ -1,25 +1,19 @@
-import { promises as fs } from 'fs'
-import dynamic from 'next/dynamic'
+'use client'
+
+import data from '../../mock_data/locations.json'
+
+import { Place } from '@/lib/types/place'
 
 import Header from '@/components/global/Header/Header'
+import Map from '@/components/map/Map/Map'
 
 import styles from './styles/discover.module.css'
 
 export default async function Discover() {
-  const file = await fs.readFile(
-    process.cwd() + '/src/app/discover/data.json',
-    'utf-8',
-  )
-
-  const data = JSON.parse(file)
-  const MapNoSSR = dynamic(() => import('@/components/map/Map/Map'), {
-    ssr: false,
-  })
-
   return (
     <>
       <Header />
-      <MapNoSSR data={data} />
+      <Map data={data as Place[]} />
     </>
   )
 }
