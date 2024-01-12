@@ -40,10 +40,8 @@ export default function Map({ data }: Props) {
     <SizedContainer className={styles.container}>
       <MapContainer
         className={styles.map}
-        center={[-14, -50]}
-        zoom={4}
-        scrollWheelZoom={!L.Browser.mobile}
-        dragging={!L.Browser.mobile}
+        center={[-13, -50]}
+        zoom={5}
         doubleClickZoom={false}
       >
         <TileLayer

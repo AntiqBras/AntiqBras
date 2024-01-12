@@ -28,9 +28,9 @@ export default function Footer() {
         <h3>Veja Mais</h3>
 
         <div className={styles.multipleLinks}>
-          <Link href="">Lorem Ipsum</Link>
-          <Link href="">Lorem Ipsum Samp</Link>
-          <Link href="">Lorem Ipsum Samp Dobe</Link>
+          <Link href="">O que é AntiqBras</Link>
+          <Link href="">Nosso Blog</Link>
+          <Link href="">Mapa Interativo</Link>
         </div>
       </div>
 

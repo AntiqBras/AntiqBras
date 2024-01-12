@@ -27,6 +27,8 @@
     max-height: 200px;
     width: 100%;
 
+    font-size: 18px;
+
     border-radius: 0 !important;
 
     flex-wrap: wrap;
