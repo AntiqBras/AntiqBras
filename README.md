@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AntiqBras
 
-## Getting Started
+<div align="center">
+  <img src="./.github/image.png" alt="AntiqBras - Landing Page">
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**AntiqBras** is website focused on Brazil's ruins, archaeological sites, and mystical locations, with a twist on nature and wildlife.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It includes an interactive map for exploring these sites and a blog featuring articles on the surrounding natural environment and wildlife.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<div align="center">
+  <img src="./.github/preview1.png" alt="AntiqBras - Landing Page">
+</div>
 
-## Learn More
+<div align="center">
+  <img src="./.github/preview2.png" alt="AntiqBras - Landing Page">
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center">
+  <img src="./.github/preview3.png" alt="AntiqBras - Landing Page">
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div align="center">
+  <img src="./.github/preview4.png" alt="AntiqBras - Landing Page">
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<div align="center">
+  <img src="./.github/preview5.png" alt="AntiqBras - Landing Page">
+</div>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Implementing an interactive map to view interesting locations in Brazil.
+- Implementing a complete blog API with endpoints for searching, creating, editing and deleting posts ([Blog API](https://github.com/AntiqBras/AntiqBras-Blog-API)).
+
+---
+
+## Installation
+
+To see this project in your machine, you need to follow these steps:
+
+1. Clone the repo: `git clone https://github.com/AntiqBras/AntiqBras`
+2. Install the dependencies: `npm i`
+3. Run the application: `npm run dev`
+
+---
+
+## Tools
+
+This project uses the following tools:
+
+- [Next.js](https://nextjs.org/) for the front-end
+  - [Leaflet](https://leafletjs.com/) for the map integration
+- [Golang](https://golang.org/) for the blog's back-end
+  - [Gin](https://github.com/gin-gonic/gin)
+  - [GORM](https://gorm.io/index.html)
+  - [PostgreSQL](https://www.postgresql.org/)
+  - [Docker](https://www.docker.com/)
+
+### Blog API
+
+To run the blog's backend, follow the instructions provided in [this repository](https://github.com/AntiqBras/AntiqBras-Blog-API).
+
+---
+
+## Credits
+
+Created by [Isaac Souza](https://github.com/isaacszf).
