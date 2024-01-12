@@ -4,11 +4,30 @@
   <img src="./.github/image.png" alt="AntiqBras - Landing Page">
 </div>
 
----
+&nbsp;
 
 **AntiqBras** is website focused on Brazil's ruins, archaeological sites, and mystical locations, with a twist on nature and wildlife.
 
 It includes an interactive map for exploring these sites and a blog featuring articles on the surrounding natural environment and wildlife.
+
+---
+
+## Features
+
+- Implementing an interactive map to view interesting locations in Brazil.
+- Implementing a complete blog API with endpoints for searching, creating, editing and deleting posts ([Blog API](https://github.com/AntiqBras/AntiqBras-Blog-API)).
+
+---
+
+## Installation
+
+To see this project in your machine, you need to follow these steps:
+
+1. Clone the repo: `git clone https://github.com/AntiqBras/AntiqBras`
+2. Install the dependencies: `npm i`
+3. Run the application: `npm run dev`
+
+---
 
 ## Preview
 
@@ -31,23 +50,6 @@ It includes an interactive map for exploring these sites and a blog featuring ar
 <div align="center">
   <img src="./.github/preview5.png" alt="AntiqBras - Landing Page">
 </div>
-
----
-
-## Features
-
-- Implementing an interactive map to view interesting locations in Brazil.
-- Implementing a complete blog API with endpoints for searching, creating, editing and deleting posts ([Blog API](https://github.com/AntiqBras/AntiqBras-Blog-API)).
-
----
-
-## Installation
-
-To see this project in your machine, you need to follow these steps:
-
-1. Clone the repo: `git clone https://github.com/AntiqBras/AntiqBras`
-2. Install the dependencies: `npm i`
-3. Run the application: `npm run dev`
 
 ---
 
